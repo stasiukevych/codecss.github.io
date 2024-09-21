@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <title>code</title>
+
+    <link rel="icon" href="images/book.png" type="images/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Education Platform Price">
+    <meta name="keywords" content="Courses, Learning, Education">
+    <meta name="author" content="Stasiukevych Anatolii">
+    <meta name="viewporwt" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-container">
+        <h1><a href="#">{code}</a></h1>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="/html/edon/index.html">home</a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="contact.html" target="_blank">contact us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- present only fot tablet/mobile mode -->
+        <div class="menu-icon">
+            <i class="material-icons">menu</i>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <figure>
+                <img src="images/header.png" alt="Education On Start">
+                <figcaption>Education - is the everything.</figcaption>
+            </figure>
+        </section>
+        <section id="subscription">
+            <h2>Let's subscribe</h2>
+            <table id="subscription_table">
+                <thead>
+                    <tr>
+                        <th>Basic</th>
+                        <th>Medium</th>
+                        <th>Unlimited</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>150$ per month</td>
+                        <td>350$ per month</td>
+                        <td>450$ per month</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>
+                                    chats
+                                </li>
+                                <li>
+                                    limited courses
+                                </li>
+                                <li>
+                                    support 24/7
+                                </li>
+                                <li>
+                                    limited live steam events
+                                </li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    chats
+                                </li>
+                                <li>
+                                    unlimited courses
+                                </li>
+                                <li>
+                                    support 24/7
+                                </li>
+                                <li>
+                                    limited live steam events
+                                </li>
+                            </ol>
+                        </td>
+                        <td>
+                            <ol>
+                                <li>
+                                    chats with video
+                                </li>
+                                <li>
+                                    unlimited courses
+                                </li>
+                                <li>
+                                    support 24/7
+                                </li>
+                                <li>
+                                    unlimited live steam events
+                                </li>
+                                <li>
+                                    one-to-one with teachers
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">contact us, if you have any questions</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <p><a class="to-top" href="#">Back To Top</a></p>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; the {code}</p>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const menuIcon = document.querySelector('.menu-icon');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
